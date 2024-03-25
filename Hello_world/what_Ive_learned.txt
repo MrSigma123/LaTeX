@@ -1,0 +1,9 @@
+SUMMARY
+
+- A document has a preable and document part
+- The document environment must be defined
+- Commands beginning with a backslash \, environments have a begin and end tag
+- useful settings for pagenumbering:
+  * gobble - no numbers
+  * arabic - arabic numbers
+  * roman - roman numbers
