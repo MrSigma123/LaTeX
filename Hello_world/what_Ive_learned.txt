@@ -1,4 +1,4 @@
-SUMMARY
+SUMMARY (25.03.2024)
 
 - A document has a preable and document part
 - The document environment must be defined
@@ -7,3 +7,9 @@ SUMMARY
   * gobble - no numbers
   * arabic - arabic numbers
   * roman - roman numbers
+
+SUMMARY (26.03.2024)
+
+- LaTeX uses the commands \section, \subsection and \subsubsection to define sections in your document
+- The sections will have successive numbers and appear in the table of contents
+- Paragraphs are not numbered and thus don't appear in the table of contents
