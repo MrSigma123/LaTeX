@@ -1,0 +1,5 @@
+SUMMARY (26.03.2024)
+
+- Packages add new functions to LaTeX
+- All packages must be included in the preambule
+- Packages add features such as support for pictures, links and bibliography
