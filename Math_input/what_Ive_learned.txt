@@ -1,0 +1,15 @@
+SUMMARY (27.03.2024)
+
+- LaTeX is a powerful tool to typeset math
+- Embed formulas in your text by surrounding them with dollar signs $
+- The equation environment is used to typeset one formula
+- The align environment will align formulas at the ampersand & symbol
+- Single formulas must be separated with two backslashes \\
+- Use the matrix environment to typeset matrices
+- Scale parentheses with \left( \right) automatically
+- All mathematical expressions have a unique command with unique syntax
+- Notable examples are:
+  * \int^a_b for integral symbol
+  * \frac{u}{v} for fractions
+  * \sqrt{x} for square roots
+- Characters for the greek alphabet and other mathematical symbols such as \lambda
