@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.25)  28 MAR 2024 19:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.25)  28 MAR 2024 20:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -48,41 +48,67 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \Gin@req@height=\dimen141
 \Gin@req@width=\dimen142
 )
+(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen143
+\captionmargin=\dimen144
+\caption@leftmargin=\dimen145
+\caption@rightmargin=\dimen146
+\caption@width=\dimen147
+\caption@indent=\dimen148
+\caption@parindent=\dimen149
+\caption@hangindent=\dimen150
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count196
+\c@continuedfloat=\count197
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count198
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count199
+)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count196
+\l__color_backend_stack_int=\count266
 \l__pdf_internal_box=\box51
 )
 (./Figure.aux)
 \openout1 = `Figure.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count197
-\scratchdimen=\dimen143
+\scratchcounter=\count267
+\scratchdimen=\dimen151
 \scratchbox=\box52
-\nofMPsegments=\count198
-\nofMParguments=\count199
+\nofMPsegments=\count268
+\nofMParguments=\count269
 \everyMPshowfont=\toks18
-\MPscratchCnt=\count266
-\MPscratchDim=\dimen144
-\MPnumerator=\count267
-\makeMPintoPDFobject=\count268
+\MPscratchCnt=\count270
+\MPscratchDim=\dimen152
+\MPnumerator=\count271
+\makeMPintoPDFobject=\count272
 \everyMPtoPDFconversion=\toks19
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -93,35 +119,42 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 <cool_cat.jpg, id=1, 154.176pt x 86.724pt>
 File: cool_cat.jpg Graphic file (type jpg)
 <use cool_cat.jpg>
-Package pdftex.def Info: cool_cat.jpg  used on input line 8.
-(pdftex.def)             Requested size: 345.0pt x 194.08571pt.
+Package pdftex.def Info: cool_cat.jpg  used on input line 10.
+(pdftex.def)             Requested size: 137.9979pt x 77.62476pt.
+<another_cool_cat.jpg, id=2, 130.086pt x 86.724pt>
+File: another_cool_cat.jpg Graphic file (type jpg)
+<use another_cool_cat.jpg>
+Package pdftex.def Info: another_cool_cat.jpg  used on input line 14.
+(pdftex.def)             Requested size: 137.9979pt x 92.00372pt.
 
 [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./cool_
-cat.jpg>] (./Figure.aux)
+cat.jpg> <./another_cool_cat.jpg>] (./Figure.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1271 strings out of 474116
- 20963 string characters out of 5743682
- 1926187 words of memory out of 5000000
- 23679 multiletter control sequences out of 15000+600000
- 558069 words of font info for 36 fonts, out of 8000000 for 9000
+ 2750 strings out of 474116
+ 49401 string characters out of 5743682
+ 1927187 words of memory out of 5000000
+ 25148 multiletter control sequences out of 15000+600000
+ 558368 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,183b,220s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 67i,8n,77p,282b,459s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-
-Output written on Figure.pdf (1 page, 33889 bytes).
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+Output written on Figure.pdf (1 page, 70026 bytes).
 PDF statistics:
- 14 PDF objects out of 1000 (max. 8388607)
- 7 compressed objects within 1 object stream
+ 20 PDF objects out of 1000 (max. 8388607)
+ 10 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
