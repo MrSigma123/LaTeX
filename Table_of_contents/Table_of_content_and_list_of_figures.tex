@@ -1,6 +1,12 @@
 \documentclass{article}
 
-\setcounter{tocdepth}{1} % Show sections
+\usepackage{setspace}
+
+% setting the document {toc} in the preambule
+
+\setcounter{tocdepth}{2}
+
+%\setcounter{tocdepth}{1} % Show sections
 %\setcounter{tocdepth}{2} % + subsections
 %\setcounter{tocdepth}{3} % + subsubsections
 %\setcounter{tocdepth}{4} % + paragraphs
@@ -8,7 +14,9 @@
 
 \begin{document}
 
+\doublespacing
 \tableofcontents
+\singlespacing
 \newpage
 
 \section{section}
@@ -19,6 +27,7 @@ Dummy text
 
 Dummy text
 
+%setting the {toc} of certain document range, i.e. section
 \addtocontents{toc}{\setcounter{tocdepth}{1}}
 \begin{figure}
 	\caption{Dummy figure}
