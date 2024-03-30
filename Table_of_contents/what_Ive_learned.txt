@@ -1,0 +1,7 @@
+SUMMARY (30.03.2024)
+
+- Autogenerate a table of content using \tableofcontents
+- Create lists of your figures and tables with \listoffigures and \listoftables
+- Always compile twice to see the changes
+- Globally change the depth with \setcounter{tocdepth}{X}; X = {1,2,3,4,5}
+- For single sections use \addtocontents{toc}{\setcounter{tocdepth}{X}} instead
