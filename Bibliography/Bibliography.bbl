@@ -17,7 +17,7 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
-  \entry{firstbib}{article}{}
+  \entry{firstbib}{misc}{}
     \name{author}{1}{}{%
       {{hash=MJE}{%
          family={Matrix},

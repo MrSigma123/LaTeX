@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.25)  4 APR 2024 15:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.25)  4 APR 2024 15:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -379,7 +379,7 @@ Package logreq Info: Writing requests to 'Bibliography.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  8652 strings out of 474116
- 170056 string characters out of 5743682
+ 170053 string characters out of 5743682
  1927187 words of memory out of 5000000
  30985 multiletter control sequences out of 15000+600000
  561456 words of font info for 47 fonts, out of 8000000 for 9000
@@ -392,7 +392,7 @@ r/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/l
 ocal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loca
 l/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
 exlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on Bibliography.pdf (1 page, 78280 bytes).
+Output written on Bibliography.pdf (1 page, 73945 bytes).
 PDF statistics:
  43 PDF objects out of 1000 (max. 8388607)
  25 compressed objects within 1 object stream

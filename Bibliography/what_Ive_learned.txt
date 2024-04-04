@@ -1,0 +1,9 @@
+SUMMARY (04.04.2024)
+
+- Generate a bibliography with BibTeX and BibLaTeX
+- First define a .bib file using: \bibliography{BIB_FILE_NAME}(do not add .bib)
+- For BibTeX put the \bibliography statement in your document, for BibLaTeX in the preamble
+- BibTeX uses the \bibliographystyle command to set the citation style
+- BibLaTeX chooses the style as an option like: \usepackage[backend=bibtex, style=verbose-trad2]{biblatex}
+- BibLaTeX uses the \cite command, while BiBLaTeX uses \autocite command
+- The \autocite command takes the page number as an option: \autocite[NUM]{BIB_FILE_NAME*}

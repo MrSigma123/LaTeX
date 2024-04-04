@@ -19,13 +19,15 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Bibliography-blx.bib
 Database file #2: firstbib.bib
+Warning--entry type for "firstbib" isn't style-file defined
+--line 1 of file firstbib.bib
 Biblatex version: 3.19
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 2 entries,
             6399 wiz_defined-function locations,
             1208 strings with 9074 characters,
-and the built_in function-call counts, 6763 in all, are:
+and the built_in function-call counts, 6762 in all, are:
 = -- 444
 > -- 148
 < -- 25
@@ -58,8 +60,9 @@ swap$ -- 131
 text.length$ -- 44
 text.prefix$ -- 1
 top$ -- 1
-type$ -- 56
+type$ -- 55
 warning$ -- 0
 while$ -- 118
 width$ -- 0
 write$ -- 42
+(There was 1 warning)
