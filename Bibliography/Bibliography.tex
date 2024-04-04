@@ -1,5 +1,6 @@
 \documentclass{article}
-\usepackage{cite}
+\usepackage[backend=bibtex, style=verbose-trad2]{biblatex}
+\bibliography{firstbib}
 
 \begin{document}
 
@@ -9,9 +10,6 @@
 \maketitle
 
 You have to eat unprocessed food and drink high quality water 
-~\cite{firstbib}.
-
-\bibliography{firstbib}
-\bibliographystyle{plain}
+~\autocite[1]{firstbib}.
 
 \end{document}

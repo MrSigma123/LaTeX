@@ -1,8 +1,43 @@
-\begin{thebibliography}{1}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem{firstbib}
-J.~E. Matrix.
-\newblock The secrets of longevity.
-\newblock {\em Tips and routines to healthy life}, 1(2):150 -- 177, 1977.
-
-\end{thebibliography}
+\datalist[entry]{nty/global//global/global}
+  \entry{firstbib}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MJE}{%
+         family={Matrix},
+         familyi={M\bibinitperiod},
+         given={J.\bibnamedelima E.},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MJE1}
+    \strng{fullhash}{MJE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{2}
+    \field{pages}{150 \bibrangedash  177}
+    \field{title}{The secrets of longevity}
+    \field{volume}{1}
+    \field{journaltitle}{Tips and routines to healthy life}
+    \field{year}{1977}
+  \endentry
+\enddatalist
+\endinput
