@@ -1,0 +1,5 @@
+SUMMARY (4.05.2024)
+
+- Create footnotes with the \footnote command and label them wtih \label
+- Make sure that the label is contained within the braces of the footnote command
+- Use the \ref command to refer to footnotes
