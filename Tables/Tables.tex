@@ -93,6 +93,23 @@
 				4 &  25.113231 & d\\
 			\end{tabular}
 		\end{center}
-	\end{table}{
+	\end{table}
+	
+	\begin{table}[h!]
+		\begin{center}
+			\caption{Multicolumn table.}
+			\label{tab:table6}
+			\begin{tabular}{l|S|r}
+				\textbf{Value 2} & \textbf{Value 2} & \textbf{Value 3}\\
+				$\alpha$ & $\beta$ & $\gamma$ \\
+				\hline
+				\multicolumn{2}{c|}{12} & a\\ % <-- Combining two cells with alignment c| and content 12.
+				\hline
+				2 & 10.1 & b\\
+				3 & 23.113231 & c\\
+				4 & 25.113231 & d\\
+			\end{tabular}
+		\end{center}
+	\end{table}
 	
 \end{document}
