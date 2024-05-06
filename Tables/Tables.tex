@@ -1,6 +1,7 @@
 \documentclass{article}
 \usepackage{siunitx} % Required for alignment
 \usepackage{multirow} % Required for multirows
+\usepackage{booktabs} % For prettier tables
 
 \sisetup{
 	round-mode = places, % Rounds numbers
@@ -9,18 +10,18 @@
 
 \begin{document}
 
-\begin{table}[h!]
-	\begin{center}
-		\caption{My first table}
-		\label{tab:table1}
-		\begin{tabular}{l|c|r} % <-- Alignments: 1st column left, 2nd middle and 3rd right
-						% with vertical lines in between
-			\textbf{Vale 1} & \textbf{Value 2} & \textbf{Value 3}\\
-			$\alpha$ & $\beta$ & $\gamma$ \\
-			\hline
-			1 & 1110.1 & a\\
-			2 & 10.1 & b\\
-			3 & 23.113231 & c\\
+	\begin{table}[h!]
+		\begin{center}
+			\caption{My first table}
+			\label{tab:table1}
+			\begin{tabular}{l|c|r} 	% <-- Alignments: 1st column left, 2nd middle and 3rd right
+							% with vertical lines in between
+				\textbf{Vale 1} & \textbf{Value 2} & \textbf{Value 3}\\
+				$\alpha$ & $\beta$ & $\gamma$ \\
+				\hline
+				1 & 1110.1 & a\\
+				2 & 10.1 & b\\
+				3 & 23.113231 & c\\
 			\end{tabular}
 		\end{center}
 	\end{table}
@@ -125,6 +126,25 @@
 				\hline
 				3 & 23.113231 & c\\
 				4 & 25.113231 & d\\
+			\end{tabular}
+		\end{center}
+	\end{table}
+	
+	% Let's make it prettier by using booktabs package (it's modified table 2)
+	
+	\begin{table}[h!]
+		\begin{center}
+			\caption{My prettier table}
+			\label{tab:table8}
+			\begin{tabular}{l|S|r}
+				\toprule % <-- Begins the table
+				\textbf{Vale 1} & \textbf{Value 2} & \textbf{Value 3}\\
+				$\alpha$ & $\beta$ & $\gamma$ \\
+				\midrule % Replace \hline
+				1 & 1110.1 & a\\
+				2 & 10.1 & b\\
+				3 & 23.113231 & c\\
+				\bottomrule % Closes the table
 			\end{tabular}
 		\end{center}
 	\end{table}
