@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.25)  6 MAY 2024 21:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.25)  6 MAY 2024 21:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -98,8 +98,15 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \backup@length=\skip51
 \ar@cellbox=\box60
 ))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip52
+\multirow@cntb=\count277
+\multirow@dima=\skip53
+\bigstrutjot=\dimen149
+)
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 9.
+h' as default language. on input line 10.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
@@ -115,33 +122,26 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx))
 (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count277
+\l__color_backend_stack_int=\count278
 \l__pdf_internal_box=\box61
 )
-(./Tables.aux
-
-LaTeX Warning: Label `tab:table2' multiply defined.
-
-
-LaTeX Warning: Label `tab:table2' multiply defined.
-
-)
+(./Tables.aux)
 \openout1 = `Tables.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/translations/translations-basic-d
 ictionary-english.trsl
@@ -149,54 +149,59 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 9.
+or `english'. on input line 10.
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count278
-\scratchdimen=\dimen149
+\scratchcounter=\count279
+\scratchdimen=\dimen150
 \scratchbox=\box62
-\nofMPsegments=\count279
-\nofMParguments=\count280
+\nofMPsegments=\count280
+\nofMParguments=\count281
 \everyMPshowfont=\toks19
-\MPscratchCnt=\count281
-\MPscratchDim=\dimen150
-\MPnumerator=\count282
-\makeMPintoPDFobject=\count283
+\MPscratchCnt=\count282
+\MPscratchDim=\dimen151
+\MPnumerator=\count283
+\makeMPintoPDFobject=\count284
 \everyMPtoPDFconversion=\toks20
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 15.
+(Font)              <7> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 15.
- [1
+(Font)              <5> on input line 16.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./Tables.aux)
+[2] (./Tables.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
+ )
+(\end occurred inside a group at level 1)
 
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+### simple group (level 1) entered at line 96 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 5474 strings out of 474116
- 145017 string characters out of 5743682
- 1938187 words of memory out of 5000000
- 27854 multiletter control sequences out of 15000+600000
+ 5545 strings out of 474116
+ 146258 string characters out of 5743682
+ 1939187 words of memory out of 5000000
+ 27921 multiletter control sequences out of 15000+600000
  558377 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,11n,80p,223b,528s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on Tables.pdf (1 page, 38479 bytes).
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr10.pfb>
+Output written on Tables.pdf (2 pages, 39088 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
- 13 compressed objects within 1 object stream
+ 26 PDF objects out of 1000 (max. 8388607)
+ 15 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
