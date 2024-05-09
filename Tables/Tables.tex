@@ -2,6 +2,7 @@
 \usepackage{siunitx} % Required for alignment
 \usepackage{multirow} % Required for multirows
 \usepackage{booktabs} % For prettier tables
+\usepackage{longtable} % For displaying tables on several tables
 
 \sisetup{
 	round-mode = places, % Rounds numbers
@@ -26,7 +27,9 @@
 		\end{center}
 	\end{table}
 	
+	\begin{center}
 	Below we add similar table but with alignment abilities
+	\end{center}
 	
 	\begin{table}[h!]
 		\begin{center}
@@ -113,7 +116,7 @@
 		\end{center}
 	\end{table}
 	
-	\begin{table}
+	\begin{table}[h!]
 		\begin{center}
 			\caption{Multirow and multicolumn combined table.}
 			\label{tab:table7}
@@ -148,5 +151,28 @@
 			\end{tabular}
 		\end{center}
 	\end{table}
+	
+	
+	\begin{longtable}[h!]{l|S|r} % <-- Replaces \begin{table}, alignment must be specified here (no more tabular}
+		\caption{Multipage table.}
+		\label{tab:table9}\\
+		\toprule
+		\textbf{Value 1} & \textbf{Value 2} & \textbf{Value 3}\\
+		$\alpha$ & $\beta$ & $\gamma$ \\
+		\midrule
+		\endfirsthead % <-- This denotes the end of the header, which will be shown on the first page only
+		\toprule
+		\textbf{Value 1} & \textbf{Value 2} & \textbf{Value 3}\\
+		$\alpha$ & $\beta$ & $\gamma$ \\
+		\midrule
+		\endhead % <-- Everything between \endfirsthead and \endhead will be shown as a header on every page
+		1 & 12 & a\\
+		2 & 23 & b\\
+		% ...
+		% ... Many rows in between
+		% ...
+		3 & 34 & c\\
+		\bottomrule
+	\end{longtable}
 	
 \end{document}
