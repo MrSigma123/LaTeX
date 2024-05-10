@@ -3,6 +3,7 @@
 \usepackage{multirow} % Required for multirows
 \usepackage{booktabs} % For prettier tables
 \usepackage{longtable} % For displaying tables on several tables
+\usepackage{rotating} % For displaying tables in landscape
 
 \sisetup{
 	round-mode = places, % Rounds numbers
@@ -223,9 +224,25 @@
 		x & x & x\\
 		x & x & x\\
 		x & x & x\\
-		
 		3 & 34 & c\\
 		\bottomrule
 	\end{longtable}
+	
+	\begin{sidewaystable}[h!] % <-- sidewaystable instead of table
+		\begin{center}
+		\caption{Landscape table.}
+		\label{tab:table10}
+		\begin{tabular}{l|S|r}
+				\toprule
+				\textbf{Value 1} & \textbf{Value 2} & \textbf{Value 3}\\
+				$\alpha$ & $\beta$ & $\gamma$ \\
+			\midrule
+			1 & 1110.1 & a\\
+			2 & 10.1 & b\\
+			3 & 23.113231 & c\\
+			\bottomrule
+		\end{tabular}
+		\end{center}
+	\end{sidewaystable}
 	
 \end{document}
