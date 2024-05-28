@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.25)  28 MAY 2024 11:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.25)  28 MAY 2024 11:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -632,9 +632,9 @@ your preamble.
 
 PGFPlots: reading {table.csv}
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 31.
+(Font)              <7> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 31.
+(Font)              <5> on input line 34.
 [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
@@ -645,16 +645,16 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 26815 strings out of 474116
- 737718 string characters out of 5743682
- 1928187 words of memory out of 5000000
- 48816 multiletter control sequences out of 15000+600000
+ 26827 strings out of 474116
+ 738145 string characters out of 5743682
+ 1929187 words of memory out of 5000000
+ 48828 multiletter control sequences out of 15000+600000
  558069 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 114i,11n,121p,719b,921s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,11n,121p,719b,925s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on Pgfplotstable.pdf (1 page, 26155 bytes).
+Output written on Pgfplotstable.pdf (1 page, 26553 bytes).
 PDF statistics:
  21 PDF objects out of 1000 (max. 8388607)
  13 compressed objects within 1 object stream
