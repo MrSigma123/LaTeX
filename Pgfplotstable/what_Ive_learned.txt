@@ -1,0 +1,8 @@
+SUMMARY (28.05.2024)
+
+- LaTeX can generate tables from .csv files automatically
+- Copy and paste the above snippet packages to get it to work hassle free
+- To add new columns, simply duplicate the display column line and change the number and name
+- Add new units using the \siunitx command and the ampersand separator as shown above
+- Have a .csv file separated with comma as column separator and newline as row separator
+- Does only work for tables smaller than one page
