@@ -1,0 +1,4 @@
+SUMMARY (29.05.2024)
+
+- Plotting is easy with pgfplots, it plots data directly from .csv files
+- Select a column by the actual name from the .csv file using table[x=column 1,y=column 2…
