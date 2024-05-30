@@ -1,0 +1,7 @@
+SUMMARY (30.05.2024)
+
+- Tikz can be used to draw graphics from within the LaTeX document
+- No graphical user interface, instead pictures are programmed
+- Extensive documentation available in the TIKZ manual
+- Many examples can be found on the internet
+- Extensions available to easy creation of diagrams, flowcharts and so forth
