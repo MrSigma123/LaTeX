@@ -1,0 +1,5 @@
+SUMMARY (31.05.2024)
+
+- Circuitikz provides an environment to draw electric circuit diagrams
+- The syntax is similar to the plain Tikz syntax
+- A list of all symbols is available in the circutikz manual
