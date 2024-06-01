@@ -1,0 +1,5 @@
+SUMMARY (1.06.2024)
+
+- After some initial setup, all source code can be embedded in a lstlistings environment
+- A list of all languages and more documentation is available in the manual of the listings package
+- Use the \lstlinputlisting{FILENAME} command to read the content of source files directly into a lstlistings environment.
