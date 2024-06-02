@@ -107,4 +107,26 @@
 	\end{circuitikz}
 	\end{figure}
 
+	% Tripoles
+	
+	% transistor example
+	\begin{figure}[h!]
+	\begin{circuitikz}
+  	\draw (0,0) node[npn](npn1) {}
+  		(npn1.base) node[anchor=east] {B}
+  		(npn1.collector) node[anchor=south] {C}
+  		(npn1.emitter) node[anchor=north] {E};
+	\end{circuitikz}
+	\end{figure}
+	
+	% we can attach different element by referring to the specific nodes
+	\begin{figure}[h!]
+	\begin{circuitikz}
+		  \draw (0,0) node[npn](npn1) {}
+  		(npn1.base) node[anchor=east] {B}
+  		(npn1.collector) node[anchor=south,xshift=0.5cm] {C} % add xshift to prevent overlapping of labes
+  		(npn1.emitter) node[anchor=north] {E};
+  		\draw (npn1.collector) to[R] ++(0,2);
+	\end{circuitikz}
+	\end{figure}
 \end{document}
