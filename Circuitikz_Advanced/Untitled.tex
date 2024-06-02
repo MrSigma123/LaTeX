@@ -19,12 +19,57 @@
 	\end{figure}
 	% you can create different lines by using simple syntax like o-, -o, or o-o
 	
-	% Monopoles
+	% Monopoles - the most basic circuitikz components
 	
 	\begin{figure}[h!]
 	\begin{circuitikz}
   		\draw (-1,0) to[short,o-o] (1,0);
   		\draw (0,0) to[short] node[ground] {GND} (0,-1); % you can add names to be displayed next to the particular node
+	\end{circuitikz}
+	\end{figure}
+	
+	% Current arrows
+	
+	% basic example
+	\begin{figure}[h!]
+	\begin{circuitikz}
+  		\draw (0,0) to[R,i=$i_1$] (2,0);
+	\end{circuitikz}
+	\end{figure}
+	
+	% switched arrow direction
+	\begin{figure}[h!]
+	\begin{circuitikz}
+  		\draw (0,0) to[R,i<=$i_1$] (2,0);
+	\end{circuitikz}
+	\end{figure}
+	
+	% place element description above
+	\begin{figure}[h!]
+	\begin{circuitikz}
+  		\draw (0,0) to[R,i^=$i_1$] (2,0);
+	\end{circuitikz}
+	\end{figure}
+	
+	% place element description below
+	\begin{figure}[h!]
+	\begin{circuitikz}
+  		\draw (0,0) to[R,i_=$i_1$] (2,0);
+	\end{circuitikz}
+	\end{figure}
+ 
+	% combinations of arrow direction and description placement
+	% left above
+	\begin{figure}[h!]
+	\begin{circuitikz}
+  		\draw (0,0) to[R,i<^=$i_1$] (2,0);
+	\end{circuitikz}
+	\end{figure}
+	
+	% right below
+	\begin{figure}[h!]
+	\begin{circuitikz}
+  		\draw (0,0) to[R,i_>=$i_1$] (2,0);
 	\end{circuitikz}
 	\end{figure}
 \end{document}
