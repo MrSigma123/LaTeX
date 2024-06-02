@@ -2,6 +2,8 @@
 \usepackage{tikz}
 \usepackage{circuitikz}
 \begin{document}
+	% Lines
+	
 	% print line with open ends
 	\begin{figure}[h!]
 	\begin{circuitikz}
@@ -16,4 +18,13 @@
 	\end{circuitikz}
 	\end{figure}
 	% you can create different lines by using simple syntax like o-, -o, or o-o
+	
+	% Monopoles
+	
+	\begin{figure}[h!]
+	\begin{circuitikz}
+  		\draw (-1,0) to[short,o-o] (1,0);
+  		\draw (0,0) to[short] node[ground] {GND} (0,-1); % you can add names to be displayed next to the particular node
+	\end{circuitikz}
+	\end{figure}
 \end{document}
