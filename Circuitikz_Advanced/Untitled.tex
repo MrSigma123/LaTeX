@@ -72,4 +72,21 @@
   		\draw (0,0) to[R,i_>=$i_1$] (2,0);
 	\end{circuitikz}
 	\end{figure}
+	
+	% Voltage arrows
+	
+	% using v option and above mentioned syntax allows for using voltage arrows
+	% description below, arrow to the right
+	\begin{figure}[h!]
+	\begin{circuitikz}
+  		\draw (0,0) to[R,v_>=$v_1$] (2,0);
+	\end{circuitikz}
+	\end{figure}
+	
+	% description above, arrow to the left
+	\begin{figure}[h!]
+	\begin{circuitikz}
+  		\draw (0,0) to[R,v^<=$v_1$] (2,0);
+	\end{circuitikz}
+	\end{figure}
 \end{document}
