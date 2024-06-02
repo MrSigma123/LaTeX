@@ -1,0 +1,5 @@
+SUMMARY 3.06.2024
+
+- There are three main classes of components in circuitikz
+- All other classes can be used in a way similar to those main classes
+- Usage examples are provided in the circuitikz manual
