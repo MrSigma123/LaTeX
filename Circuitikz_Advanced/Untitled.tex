@@ -1,0 +1,19 @@
+\documentclass{article}
+\usepackage{tikz}
+\usepackage{circuitikz}
+\begin{document}
+	% print line with open ends
+	\begin{figure}[h!]
+	\begin{circuitikz}
+		\draw (-1,0) to[short,o-o] (1,0);
+	\end{circuitikz}
+	\end{figure}
+	
+	% print line with closed end on the left and without end on the right
+	\begin{figure}[h!]
+	\begin{circuitikz}
+  		\draw (-1,0) to[short,*-] (1,0);
+	\end{circuitikz}
+	\end{figure}
+	% you can create different lines by using simple syntax like o-, -o, or o-o
+\end{document}
