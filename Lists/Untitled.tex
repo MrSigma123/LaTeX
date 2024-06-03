@@ -1,5 +1,7 @@
 \documentclass{article}
 
+\usepackage{enumitem} %necessary package for modified ordering
+
 \begin{document}
 
 % unordered lists
@@ -44,5 +46,40 @@
     \item[$-$] Dash
     \item[$\ast$] Asterisk
 \end{itemize}
+
+\newpage
+
+% modified numbering
+\section{Modified numbering}
+Roman, Arabic and Alphabetical numbering examples
+\newline
+
+%Roman numbers \begin{enumerate}[label=(\roman*)]
+% Arabic numbers \begin{enumerate}[label=\arabic*)]
+% Alphabetical \begin{enumerate}[label=\alph*)]
+
+% using Roman numbering
+Roman numbering
+\begin{enumerate}[label=(\roman*)]
+    \item One
+    \item Two
+    \item Three
+\end{enumerate}
+
+% using Arabic numbering
+Arabic numbering
+\begin{enumerate}[label=(\arabic*)]
+    \item One
+    \item Two
+    \item Three
+\end{enumerate}
+
+% using Alphabetical numbering
+Alphabetical numbering
+\begin{enumerate}[label=(\alph*)]
+    \item One
+    \item Two
+    \item Three
+\end{enumerate}
 
 \end{document}
