@@ -1,0 +1,6 @@
+SUMMARY (04.06.2024)
+
+- Unordered lists can be created using the itemize environment.
+- Ordered lists can be created using the enumerate environment.
+- Lists can be nested and will be aligned and enumerated properly.
+- Use the enumitem package to customize the symbols or enumeration.
