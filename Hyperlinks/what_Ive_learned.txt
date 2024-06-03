@@ -1,0 +1,8 @@
+SUMMARY (03.06.2024)
+
+- Add the hyperref package to your preamble
+- Links will show up in a colored box which will be invisible when you print it.
+- Use \href{URL}{DESCRIPTION} to add a link with description
+- Use \url{URL} to add a link without a description
+- Prepend your email address with mailto: to make it clickable and open your mail program
+- In case you want to customize the appearance, read the documentation on ctan
